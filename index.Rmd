@@ -5,5 +5,17 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# Les grandes fonctions macroeconomiques
 
+Revenons à notre fonction de consommation des ménages. Elle dépend positivement du revenu disponible Y_D, tel que :
+C=C\left(Y_D\right),\ \ \ \ \ \ \ \ \ \ \ \ avec\ C\prime\left(Y_D\right)\ >\ 0
+Elle capture le comportement agrégé des ménages, et prend souvent la forme explicite de la fonction linéaire suivante :
+C=c_0+c_1Y_D
+Avec :
+	c_0>\ 0 : la consommation dite « incompressible », c-à-d la consommation si Y_D\ =\ 0 (les ménages consomment alors en vendant des actifs ou en empruntant)
+	{0\ <c}_1<\ 1\ : la propension marginale à consommer 
+	Y_D\geq0 : le revenu disponible des ménages, qui peut se définir de différentes manières selon le système de redistribution en vigueur dans l’économie :
+	Y_D=Y : le revenu disponible des ménages correspond aux différents revenus perçus, sans aucun impôt, c'est-à-dire au revenu global de l’économie.
+	Y_D=Y-\ T : le revenu disponible des ménages correspond à la somme des revenus perçus diminuée d’un niveau forfaitaire d’impôt. 
+	Y_D=(1-t)Y : le revenu disponible des ménages dépend d’un impôt proportionnel (taux d’imposition t) 
+	Y_D=(1-t)Y\ +\ R : le revenu disponible des ménages dépend également des prestations sociales versées par l’Etat et notées R, qui permettent de soutenir le niveau de consommation des ménages. Ces revenus de transfert sont courants dans la vie économique, tels que le revenu de solidarité active (RSA) ou encore les allocations familiales ou chômage. Ces revenus de transfert peuvent être forfaitaires ou proportionnels au revenu ; dans le cas présenté ici, ils sont forfaitaires.
