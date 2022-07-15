@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "MACROECONOMIE D2"
+author: "Yann Thommen"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
