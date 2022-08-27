@@ -11,7 +11,7 @@ site: bookdown::bookdown_site
 
 
 
-*Évolution du PIB (France) en volume et contributions (source Insee)*
+**GRAPHIQUE 1 : Évolution du PIB (France) en volume et contributions (source Insee)**
 
 ```{r echo=FALSE}
 library(knitr)
